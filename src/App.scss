@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Open+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nova+Round&display=swap");
 
 $green-color: #c8d0b4;
 $orange-color: #f2ead3;
@@ -7,7 +7,7 @@ $braun-color: #321313;
 $white-color: #ffffff;
 $gray-color: #e5e5e5;
 $black-color: #333333;
-$fontText: "Open Sans", sans-serif;
+$fontText: "Nova Round", cursive;
 $fontTitles: "Open Sans", sans-serif;
 // $fontTitles:'Fredericka the Great', cursive;
 
@@ -15,9 +15,13 @@ $fontTitles: "Open Sans", sans-serif;
   box-sizing: border-box;
   margin: 0;
   font-family: $fontText;
+  text-decoration: none;
+  list-style: none;
+  //   color: $braun-color;
 }
 // HOME
 body {
+  color: $braun-color;
   margin: 0;
   box-sizing: border-box;
   background-color: $white-color;
@@ -38,13 +42,23 @@ nav {
   border-bottom: 1px solid $white-color;
   box-shadow: -1px 11px 23px 1px #b6a6fb3d;
   div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     background-color: $orange-color;
-    padding: 0.5% 10%;
+    padding: 0.3% 10%;
+    a {
+      display: flex;
+      font-size: 0.6em;
+      color: $braun-color;
+      //   margin-right: 2rem;
+      align-items: center;
+    }
   }
   ul {
     padding: 1% 5%;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     img {
       width: 8em;
@@ -52,7 +66,13 @@ nav {
     }
     li {
       padding-right: 2rem;
-      font-size: 0.9rem;
+      font-size: 1.2rem;
+      text-transform: uppercase;
+      //   color: $braun-color;
+    }
+    a,
+    a:visited {
+      color: $braun-color;
     }
   }
 }
