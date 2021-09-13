@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Open+Sans:wght@300&display=swap");
+
+$green-color: #c8d0b4;
+$white-color: #ffffff;
+$gray-color: #e5e5e5;
+$black-color: #333333;
+$fontText: "Open Sans", sans-serif;
+$fontTitles: "Open Sans", sans-serif;
+// $fontTitles:'Fredericka the Great', cursive;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: $fontText;
+}
+// HOME
+body {
+  margin: 0;
+  box-sizing: border-box;
+  background-color: $white-color;
+}
+/* NAV */
+nav {
+  position: fixed;
+  top: 0;
+  background-color: $white-color;
+  z-index: 99999;
+  min-height: 10vh;
+  //   padding: 0 5%;
+  //   display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1%;
+  border-bottom: 1px solid $white-color;
+  box-shadow: -1px 11px 23px 1px #b6a6fb3d;
+  div {
+    background-color: $green-color;
+    padding: 0.5% 10%;
+  }
+  ul {
+    padding: 2% 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    li {
+      padding-right: 2rem;
+      font-size: 0.9rem;
+    }
+  }
+}
+body h1 {
+  text-align: center;
+}
+
+/* FORM */
+form {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  margin: 2em auto;
+}
+form input {
+  padding: 1em;
+}
+form input:last-of-type {
+  color: var(--white-color);
+  padding: 1em;
+  background-color: var(--black-color);
+}
