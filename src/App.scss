@@ -40,7 +40,7 @@ nav {
   align-items: center;
   margin-bottom: 1%;
   border-bottom: 1px solid $white-color;
-  box-shadow: -1px 11px 23px 1px #b6a6fb3d;
+  //   box-shadow: -1px 11px 23px 1px $orange-color;
   div {
     display: flex;
     justify-content: space-around;
@@ -79,9 +79,20 @@ nav {
 
 // MAIN
 main {
-  margin-top: 15em;
+  margin-top: 11em;
   border-top: 1px solid $black-color;
   text-align: center;
+
+  background-image: url("./img/readHair.png");
+  background-color: $gray-color;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  //   position: relative;
+  h1 {
+    padding-top: 4em;
+  }
 }
 
 /* FORM */

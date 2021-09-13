@@ -3,7 +3,9 @@ import React from "react";
 const About = () => {
   return (
     <main>
-      <h1>About</h1>
+      <div>
+        <h1>About</h1>
+      </div>
     </main>
   );
 };
