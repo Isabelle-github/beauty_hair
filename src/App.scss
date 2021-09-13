@@ -1,6 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Open+Sans:wght@300&display=swap");
 
 $green-color: #c8d0b4;
+$orange-color: #f2ead3;
+$dark-orange-color: #f39a3e;
+$braun-color: #321313;
 $white-color: #ffffff;
 $gray-color: #e5e5e5;
 $black-color: #333333;
@@ -35,21 +38,29 @@ nav {
   border-bottom: 1px solid $white-color;
   box-shadow: -1px 11px 23px 1px #b6a6fb3d;
   div {
-    background-color: $green-color;
+    background-color: $orange-color;
     padding: 0.5% 10%;
   }
   ul {
-    padding: 2% 5%;
+    padding: 1% 5%;
     display: flex;
     justify-content: center;
     align-items: center;
+    img {
+      width: 8em;
+      border-radius: 20% 0% 20% 0%;
+    }
     li {
       padding-right: 2rem;
       font-size: 0.9rem;
     }
   }
 }
-body h1 {
+
+// MAIN
+main {
+  margin-top: 15em;
+  border-top: 1px solid $black-color;
   text-align: center;
 }
 
