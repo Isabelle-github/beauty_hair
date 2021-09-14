@@ -6,6 +6,7 @@ import About from "./components/About";
 import Nav from "./components/Nav";
 import Contact from "./components/Contact";
 import Gallery from "./components/Gallery";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
             <Home />
           </Route>
         </Switch>
+        <Footer></Footer>
       </div>
     </Router>
   );

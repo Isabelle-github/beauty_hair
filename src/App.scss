@@ -41,13 +41,16 @@ nav {
   align-items: center;
   margin-bottom: 1%;
   border-bottom: 1px solid $white-color;
-  //   box-shadow: -1px 11px 23px 1px $orange-color;
+  // box-shadow: -1px 11px 23px 1px $orange-color;
   div {
     display: flex;
     justify-content: space-around;
     align-items: center;
     background-color: $orange-color;
     padding: 0.3% 10%;
+    a:hover {
+      color: $dark-orange-color;
+    }
     a {
       display: flex;
       font-size: 0.6em;
@@ -64,6 +67,7 @@ nav {
     img {
       width: 8em;
       border-radius: 20% 0% 20% 0%;
+      box-shadow: -1px 11px 23px 1px $braun-color;
     }
     li {
       padding-right: 2rem;
@@ -75,6 +79,9 @@ nav {
     a:visited {
       color: $braun-color;
     }
+    a:hover {
+      color: $dark-orange-color;
+    }
   }
 }
 
@@ -85,7 +92,7 @@ main {
     // border-top: 1px solid $black-color;
     text-align: center;
     opacity: 1;
-    background-image: url("./img/secondWoman.jpg");
+    background-image: url("./img/woman3.jpg");
     background-color: $braun-color;
     min-height: 100vh;
     background-position: top;
@@ -96,10 +103,13 @@ main {
     background-attachment: fixed;
   }
   .testimonial {
-    padding: 5em;
+    padding: 8em;
     display: flex;
     gap: 3em;
     article {
+      // box-shadow: -1px 11px 23px 1px $dark-orange-color;
+      box-shadow: -1px 11px 23px 1px $braun-color;
+      border-radius: 20% 0% 20% 0%;
       background-color: $orange-color;
       padding: 2em;
       width: 30%;
@@ -107,11 +117,16 @@ main {
         display: flex;
         align-items: center;
         img {
-          width: 10em;
-          border-radius: 50%;
+          width: 5em;
+          // border-radius: 50%;
+          border-radius: 20% 0% 20% 0%;
         }
       }
     }
+  }
+  .parallax2 {
+    background-position: center;
+    background-image: url("./img/woman5.jpg");
   }
 
   // h2 {
@@ -119,6 +134,23 @@ main {
   //   padding-top: 4em;
   //   background-color: $white-color;
   // }
+}
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: $orange-color;
+  padding: 5% 10%;
+  a {
+    display: flex;
+    font-size: 0.9em;
+    color: $braun-color;
+    //   margin-right: 2rem;
+    align-items: center;
+  }
+  a:hover {
+    color: $dark-orange-color;
+  }
 }
 
 /* FORM */
