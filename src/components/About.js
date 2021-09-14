@@ -3,8 +3,8 @@ import React from "react";
 const About = () => {
   return (
     <main>
-      <div>
-        <h1>About</h1>
+      <div className="parallax">
+        <h1>about</h1>
       </div>
     </main>
   );

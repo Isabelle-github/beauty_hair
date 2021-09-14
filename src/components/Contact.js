@@ -3,7 +3,9 @@ import React from "react";
 const Contact = () => {
   return (
     <main>
-      <h1>Contact</h1>
+      <div className="parallax">
+        <h1>contact</h1>
+      </div>
     </main>
   );
 };

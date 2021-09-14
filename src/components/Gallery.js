@@ -3,7 +3,9 @@ import React from "react";
 const Gallery = () => {
   return (
     <main>
-      <h1>Galerie</h1>
+      <div className="parallax">
+        <h1>gallerie</h1>
+      </div>
     </main>
   );
 };
