@@ -95,12 +95,30 @@ main {
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
   }
-
-  h2 {
-    // margin-top: 10em;
-    padding-top: 4em;
-    background-color: $white-color;
+  .testimonial {
+    padding: 5em;
+    display: flex;
+    gap: 3em;
+    article {
+      background-color: $orange-color;
+      padding: 2em;
+      width: 30%;
+      figure {
+        display: flex;
+        align-items: center;
+        img {
+          width: 10em;
+          border-radius: 50%;
+        }
+      }
+    }
   }
+
+  // h2 {
+  //   // margin-top: 10em;
+  //   padding-top: 4em;
+  //   background-color: $white-color;
+  // }
 }
 
 /* FORM */
