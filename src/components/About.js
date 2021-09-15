@@ -3,7 +3,7 @@ import React from "react";
 const About = () => {
   return (
     <main>
-      <div className="parallax">
+      <div className="parallax bgAbout">
         <h1>about</h1>
       </div>
     </main>

@@ -1,5 +1,4 @@
 import React from "react";
-import firstWoman from "../img/firstWoman.jpg";
 import woman3 from "../img/woman3.jpg";
 import woman4 from "../img/woman4.jpg";
 import woman5 from "../img/woman5.jpg";

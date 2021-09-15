@@ -20,13 +20,13 @@ const Nav = () => {
         </div>
         <ul>
           <NavLink exact activeStyle={{ color: "#f39a3e" }} to="/">
-            <img src={`${logo}`} alt="logo" className="logo" />
-          </NavLink>
-          <NavLink exact activeStyle={{ color: "#f39a3e" }} to="/">
             <li>Home</li>
           </NavLink>
           <NavLink exact activeStyle={{ color: "#f39a3e" }} to="/about">
             <li>About</li>
+          </NavLink>
+          <NavLink exact activeStyle={{ color: "#f39a3e" }} to="/">
+            <img src={`${logo}`} alt="logo" className="logo" />
           </NavLink>
           <NavLink exact activeStyle={{ color: "#f39a3e" }} to="/gallery">
             <li>Gallery</li>

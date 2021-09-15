@@ -92,8 +92,8 @@ main {
     // border-top: 1px solid $black-color;
     text-align: center;
     opacity: 1;
-    background-image: url("./img/woman3.jpg");
-    background-color: $braun-color;
+    background-image: url("./img/woman7.jpg");
+    // background-color: $braun-color;
     min-height: 100vh;
     background-position: top;
     background-repeat: no-repeat;
@@ -127,6 +127,18 @@ main {
   .parallax2 {
     background-position: center;
     background-image: url("./img/woman5.jpg");
+  }
+  .bgAbout {
+    background-position: center;
+    background-image: url("./img/woman2.jpg");
+  }
+  .bgContact {
+    background-position: center;
+    background-image: url("./img/woman6.jpg");
+  }
+  .bgGallery {
+    background-position: center;
+    background-image: url("./img/woman4.jpg");
   }
 
   // h2 {

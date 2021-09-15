@@ -17,7 +17,7 @@ const Footer = () => {
       </a>
       <a href="https://www.facebook.com/matawe.tatiana">
         <FacebookIcon></FacebookIcon>
-        Follow me on Facebook: Beauty Grace
+        Follow me on Facebook
       </a>
     </footer>
   );
