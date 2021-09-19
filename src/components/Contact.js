@@ -15,10 +15,10 @@ const Contact = () => {
           height="399"
           id="gmap_canvas"
           src="https://maps.google.com/maps?q=15%20Wordsworth%20Ave,%20Doncaster%20DN4%208JU,%20%D7%91%D7%A8%D7%99%D7%98%D7%A0%D7%99%D7%94&t=k&z=17&ie=UTF8&iwloc=&output=embed"
-          frameborder="0"
+          frameBorder="0"
           scrolling="no"
-          marginheight="0"
-          marginwidth="0"
+          marginHeight="0"
+          marginWidth="0"
         ></iframe>
       </div>
       <div className="form-area">
