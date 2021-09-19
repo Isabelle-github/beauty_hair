@@ -9,9 +9,9 @@ const Nav = () => {
     <header>
       <nav>
         <div>
-          <a href="tel:555-666-7777">
+          <a href="tel:+44 7404 403711">
             <CallIcon></CallIcon>
-            (435)346-1098
+            +44 7404 403711
           </a>
           <a href="mailto:abc@example.com">
             <EmailIcon></EmailIcon>
@@ -19,19 +19,20 @@ const Nav = () => {
           </a>
         </div>
         <ul>
-          <NavLink exact activeStyle={{ color: "#f39a3e" }} to="/">
-            <li>Home</li>
-          </NavLink>
-          <NavLink exact activeStyle={{ color: "#f39a3e" }} to="/about">
-            <li>About</li>
-          </NavLink>
-          <NavLink exact activeStyle={{ color: "#f39a3e" }} to="/">
+          <NavLink exact activeStyle={{ color: "#D5753B" }} to="/">
             <img src={`${logo}`} alt="logo" className="logo" />
           </NavLink>
-          <NavLink exact activeStyle={{ color: "#f39a3e" }} to="/gallery">
+          <NavLink exact activeStyle={{ color: "#D5753B" }} to="/">
+            <li>Home</li>
+          </NavLink>
+          <NavLink exact activeStyle={{ color: "#D5753B" }} to="/about">
+            <li>About</li>
+          </NavLink>
+
+          <NavLink exact activeStyle={{ color: "#D5753B" }} to="/gallery">
             <li>Gallery</li>
           </NavLink>
-          <NavLink exact activeStyle={{ color: "#f39a3e" }} to="/contact">
+          <NavLink exact activeStyle={{ color: "#D5753B" }} to="/contact">
             <li>Contact</li>
           </NavLink>
         </ul>

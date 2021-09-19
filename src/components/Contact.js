@@ -1,5 +1,7 @@
 import React from "react";
 import ContactForm from "./ContactForm";
+import CallIcon from "@material-ui/icons/Call";
+import EmailIcon from "@material-ui/icons/Email";
 
 const Contact = () => {
   return (
@@ -7,7 +9,7 @@ const Contact = () => {
       <div className="parallax bgContact">
         <h1>contact</h1>
       </div>
-      <div class="map">
+      <div className="map">
         <iframe
           width="1046"
           height="399"
@@ -19,9 +21,25 @@ const Contact = () => {
           marginwidth="0"
         ></iframe>
       </div>
-      <div>
+      <div className="form-area">
         <ContactForm></ContactForm>
-        <aside></aside>
+        <aside>
+          <h2>Beauty Grace</h2>
+          <a href="tel:+44 7404 403711">
+            <CallIcon></CallIcon>
+            +44 7404 403711
+          </a>
+          {/* <p></p> */}
+          <a href="mailto:abc@example.com">
+            <EmailIcon></EmailIcon>
+            My@Email.com
+          </a>
+          <p>15 Wordsworth Ave</p>
+          <p>Doncaster DN4 8JU, UK</p>
+          <h2>Working Hours</h2>
+          <p>Mon - Fri: 9am - 2pm</p>
+          <p>Saturday: 11am - 5pm</p>
+        </aside>
       </div>
     </main>
   );

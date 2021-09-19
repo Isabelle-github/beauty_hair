@@ -7,9 +7,9 @@ const Footer = () => {
   return (
     <footer>
       <p> &#9400; Copyright 2021</p>
-      <a href="tel:555-666-7777">
+      <a href="tel:+44 7404 403711">
         <CallIcon></CallIcon>
-        (435)346-1098
+        +44 7404 403711
       </a>
       <a href="mailto:abc@example.com">
         <EmailIcon></EmailIcon>

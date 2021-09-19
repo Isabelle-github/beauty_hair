@@ -2,7 +2,7 @@
 
 $green-color: #c8d0b4;
 $orange-color: #f2ead3;
-$dark-orange-color: #f39a3e;
+$dark-orange-color: #d5753b;
 $braun-color: #321313;
 $white-color: #ffffff;
 $gray-color: #e5e5e5;
@@ -150,17 +150,69 @@ main {
     }
   }
   /* contact FORM */
-  form {
-    width: 70%;
+  .form-area {
+    padding: 5em;
     display: flex;
-    flex-direction: column;
-    // margin: 2em auto;
-    input {
-      padding: 1em;
+    justify-content: space-between;
+    aside {
+      width: 25%;
+      h2 {
+        margin-bottom: 1em;
+      }
+      h2:last-of-type {
+        margin-top: 1em;
+      }
+      p {
+        margin-bottom: 0.5em;
+        margin-top: 0.5em;
+      }
+      a {
+        display: flex;
+        color: $braun-color;
+        align-items: center;
+        margin-bottom: 0.5em;
+      }
+      a,
+      a:visited {
+        color: $braun-color;
+      }
+      a:hover {
+        color: $dark-orange-color;
+      }
     }
-    button {
-      padding: 1em;
-      background-color: $dark-orange-color;
+    form {
+      width: 70%;
+      display: flex;
+      flex-direction: column;
+      // margin: 2em auto;
+      div {
+        display: flex;
+        justify-content: space-between;
+        input {
+          width: 49%;
+        }
+      }
+      input,
+      textarea {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        outline: none;
+        color: $braun-color;
+        padding: 2em;
+        margin-bottom: 2em;
+        border-style: none;
+        border-radius: 20% 0% 20% 0%;
+        background-color: $orange-color;
+      }
+      button {
+        margin: 0 auto;
+        border-style: none;
+        width: 30%;
+        padding: 1.5em;
+        border-radius: 1em;
+        background-color: $dark-orange-color;
+      }
     }
   }
 }
