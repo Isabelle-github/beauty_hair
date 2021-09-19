@@ -2,12 +2,25 @@ import React from "react";
 import ContactForm from "./ContactForm";
 import CallIcon from "@material-ui/icons/Call";
 import EmailIcon from "@material-ui/icons/Email";
+import { Spring, animated } from "@react-spring/web";
 
 const Contact = () => {
   return (
     <main>
       <div className="parallax bgContact">
-        <h1>contact</h1>
+        <Spring
+          from={{ opacity: 0, marginTop: -500 }}
+          to={{ opacity: 1, marginTop: 0 }}
+          config={{ dalay: 1000, duration: 2000 }}
+        >
+          {(props) => (
+            <animated.div style={props}>
+              <h1>
+                Let me take care of your Hair! Write/Call to schedule a Meeting
+              </h1>
+            </animated.div>
+          )}
+        </Spring>
       </div>
       <div className="map">
         <iframe
@@ -24,7 +37,7 @@ const Contact = () => {
       <div className="form-area">
         <ContactForm></ContactForm>
         <aside>
-          <h2>Beauty Grace</h2>
+          <h2>BEAUTY GRACE</h2>
           <a href="tel:+44 7404 403711">
             <CallIcon></CallIcon>
             +44 7404 403711
@@ -34,11 +47,11 @@ const Contact = () => {
             <EmailIcon></EmailIcon>
             My@Email.com
           </a>
-          <p>15 Wordsworth Ave</p>
-          <p>Doncaster DN4 8JU, UK</p>
-          <h2>Working Hours</h2>
+          {/* <p>15 Wordsworth Ave</p>
+          <p>Doncaster DN4 8JU, UK</p> */}
+          <h2>WORKING HOURS</h2>
           <p>Mon - Fri: 9am - 2pm</p>
-          <p>Saturday: 11am - 5pm</p>
+          <p>Sat - Sun: 1pm - 5pm</p>
         </aside>
       </div>
     </main>
