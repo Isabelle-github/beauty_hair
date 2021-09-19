@@ -144,12 +144,29 @@ main {
       font-size: 6.5em;
       color: $braun-color;
       width: 90%;
-      border-style: solid;
+      // border-style: solid;
       margin: 0 auto;
       padding: 1em;
       text-align: right;
-      border-radius: 20% 0% 20% 0%;
+      // border-radius: 20% 0% 20% 0%;
       text-transform: uppercase;
+    }
+  }
+  .imageGallery {
+    padding: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    // gap: 1em;
+    figure {
+      padding: 1%;
+      width: 25%;
+
+      img {
+        padding: 1%;
+        width: 100%;
+        object-fit: cover;
+      }
     }
   }
 

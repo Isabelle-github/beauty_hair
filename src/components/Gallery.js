@@ -1,7 +1,18 @@
 import React from "react";
+// import { useState } from "react";
 import { Spring, animated } from "@react-spring/web";
-
+import picsArr from "../photos";
 const Gallery = () => {
+  // const [pictures, setpics] = useState(picsArr);
+
+  // for (let i = 0; i < 49; i++) {
+  //   picsArr.push({
+  //     id: i,
+  //     imgSrc: `process.end.PUBLIC_URL/pics/pic${i}.jpeg`,
+  //   });
+  // }
+
+  // console.log(picsArr);
   return (
     <main>
       <div className="parallax bgGallery">
@@ -17,8 +28,15 @@ const Gallery = () => {
           )}
         </Spring>
       </div>
-      <section>
-        <figure></figure>
+      <section className="imageGallery">
+        {picsArr &&
+          picsArr.map((pic) => {
+            return (
+              <figure key={pic.id}>
+                <img src={pic.imgSrc} alt="img"></img>
+              </figure>
+            );
+          })}
       </section>
     </main>
   );

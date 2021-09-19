@@ -1,58 +1,203 @@
-export default [
+const picsArr = [
   {
-    css: "https://images.pexels.com/photos/416430/pexels-photo-416430.jpeg",
-    height: 150,
+    id: 1,
+    imgSrc: process.env.PUBLIC_URL + "/pics/pic1.jpeg",
   },
   {
-    css: "https://images.pexels.com/photos/1103970/pexels-photo-1103970.jpeg",
-    height: 300,
+    id: 2,
+    imgSrc: process.env.PUBLIC_URL + "/pics/pic2.jpeg",
   },
   {
-    css: "https://images.pexels.com/photos/911738/pexels-photo-911738.jpeg",
-    height: 300,
+    id: 3,
+    imgSrc: process.env.PUBLIC_URL + "/pics/pic3.jpeg",
   },
   {
-    css: "https://images.pexels.com/photos/358574/pexels-photo-358574.jpeg",
-    height: 300,
+    id: 4,
+    imgSrc: process.env.PUBLIC_URL + "/pics/pic4.jpeg",
   },
   {
-    css: "https://images.pexels.com/photos/1738986/pexels-photo-1738986.jpeg",
-    height: 300,
+    id: 5,
+    imgSrc: process.env.PUBLIC_URL + "/pics/pic5.jpeg",
   },
   {
-    css: "https://images.pexels.com/photos/96381/pexels-photo-96381.jpeg",
-    height: 300,
+    id: 6,
+    imgSrc: process.env.PUBLIC_URL + "/pics/pic6.jpeg",
   },
   {
-    css: "https://images.pexels.com/photos/1005644/pexels-photo-1005644.jpeg",
-    height: 200,
+    id: 7,
+    imgSrc: process.env.PUBLIC_URL + "/pics/pic7.jpeg",
   },
   {
-    css: "https://images.pexels.com/photos/227675/pexels-photo-227675.jpeg",
-    height: 300,
+    id: 8,
+    imgSrc: process.env.PUBLIC_URL + "/pics/pic8.jpeg",
   },
   {
-    css: "https://images.pexels.com/photos/325185/pexels-photo-325185.jpeg",
-    height: 200,
+    id: 9,
+    imgSrc: process.env.PUBLIC_URL + "/pics/pic9.jpeg",
   },
   {
-    css: "https://images.pexels.com/photos/327482/pexels-photo-327482.jpeg",
-    height: 400,
+    id: 10,
+    imgSrc: process.env.PUBLIC_URL + "/pics/pic10.jpeg",
   },
   {
-    css: "https://images.pexels.com/photos/2736834/pexels-photo-2736834.jpeg",
-    height: 200,
+    id: 11,
+    imgSrc: process.env.PUBLIC_URL + "/pics/pic11.jpeg",
   },
   {
-    css: "https://images.pexels.com/photos/249074/pexels-photo-249074.jpeg",
-    height: 150,
+    id: 12,
+    imgSrc: process.env.PUBLIC_URL + "/pics/pic12.jpeg",
   },
   {
-    css: "https://images.pexels.com/photos/310452/pexels-photo-310452.jpeg",
-    height: 400,
+    id: 13,
+    imgSrc: process.env.PUBLIC_URL + "/pics/pic13.jpeg",
   },
   {
-    css: "https://images.pexels.com/photos/380337/pexels-photo-380337.jpeg",
-    height: 200,
+    id: 14,
+    imgSrc: process.env.PUBLIC_URL + "/pics/pic14.jpeg",
+  },
+  {
+    id: 15,
+    imgSrc: process.env.PUBLIC_URL + "/pics/pic15.jpeg",
+  },
+  {
+    id: 16,
+    imgSrc: process.env.PUBLIC_URL + "/pics/pic16.jpeg",
+  },
+  {
+    id: 17,
+    imgSrc: process.env.PUBLIC_URL + "/pics/pic17.jpeg",
+  },
+  {
+    id: 18,
+    imgSrc: process.env.PUBLIC_URL + "/pics/pic18.jpeg",
+  },
+  {
+    id: 19,
+    imgSrc: process.env.PUBLIC_URL + "/pics/pic19jpeg",
+  },
+  {
+    id: 20,
+    imgSrc: process.env.PUBLIC_URL + "/pics/pic20.jpeg",
+  },
+  {
+    id: 21,
+    imgSrc: process.env.PUBLIC_URL + "/pics/pic21.jpeg",
+  },
+  {
+    id: 22,
+    imgSrc: process.env.PUBLIC_URL + "/pics/pic22.jpeg",
+  },
+  {
+    id: 23,
+    imgSrc: process.env.PUBLIC_URL + "/pics/pic23.jpeg",
+  },
+  {
+    id: 24,
+    imgSrc: process.env.PUBLIC_URL + "/pics/pic24.jpeg",
+  },
+  {
+    id: 25,
+    imgSrc: process.env.PUBLIC_URL + "/pics/pic25.jpeg",
+  },
+  {
+    id: 26,
+    imgSrc: process.env.PUBLIC_URL + "/pics/pic26.jpeg",
+  },
+  {
+    id: 27,
+    imgSrc: process.env.PUBLIC_URL + "/pics/pic27.jpeg",
+  },
+  {
+    id: 28,
+    imgSrc: process.env.PUBLIC_URL + "/pics/pic28.jpeg",
+  },
+  {
+    id: 29,
+    imgSrc: process.env.PUBLIC_URL + "/pics/pic29.jpeg",
+  },
+  {
+    id: 30,
+    imgSrc: process.env.PUBLIC_URL + "/pics/pic30.jpeg",
+  },
+  {
+    id: 31,
+    imgSrc: process.env.PUBLIC_URL + "/pics/pic31.jpeg",
+  },
+  {
+    id: 32,
+    imgSrc: process.env.PUBLIC_URL + "/pics/pic32.jpeg",
+  },
+  {
+    id: 33,
+    imgSrc: process.env.PUBLIC_URL + "/pics/pic33.jpeg",
+  },
+  {
+    id: 34,
+    imgSrc: process.env.PUBLIC_URL + "/pics/pic34.jpeg",
+  },
+  {
+    id: 35,
+    imgSrc: process.env.PUBLIC_URL + "/pics/pic35.jpeg",
+  },
+  {
+    id: 36,
+    imgSrc: process.env.PUBLIC_URL + "/pics/pic36.jpeg",
+  },
+  {
+    id: 37,
+    imgSrc: process.env.PUBLIC_URL + "/pics/pic37.jpeg",
+  },
+  {
+    id: 38,
+    imgSrc: process.env.PUBLIC_URL + "/pics/pic38.jpeg",
+  },
+  {
+    id: 39,
+    imgSrc: process.env.PUBLIC_URL + "/pics/pic39.jpeg",
+  },
+  {
+    id: 40,
+    imgSrc: process.env.PUBLIC_URL + "/pics/pic40.jpeg",
+  },
+  {
+    id: 41,
+    imgSrc: process.env.PUBLIC_URL + "/pics/pic41.jpeg",
+  },
+  {
+    id: 42,
+    imgSrc: process.env.PUBLIC_URL + "/pics/pic42.jpeg",
+  },
+  {
+    id: 43,
+    imgSrc: process.env.PUBLIC_URL + "/pics/pic43.jpeg",
+  },
+  {
+    id: 44,
+    imgSrc: process.env.PUBLIC_URL + "/pics/pic44.jpeg",
+  },
+  {
+    id: 45,
+    imgSrc: process.env.PUBLIC_URL + "/pics/pic45.jpeg",
+  },
+  {
+    id: 46,
+    imgSrc: process.env.PUBLIC_URL + "/pics/pic46.jpeg",
+  },
+  {
+    id: 47,
+    imgSrc: process.env.PUBLIC_URL + "/pics/pic47.jpeg",
+  },
+  {
+    id: 48,
+    imgSrc: process.env.PUBLIC_URL + "/pics/pic48.jpeg",
+  },
+  {
+    id: 49,
+    imgSrc: process.env.PUBLIC_URL + "/pics/pic49.jpeg",
+  },
+  {
+    id: 50,
+    imgSrc: process.env.PUBLIC_URL + "/pics/pic50.jpeg",
   },
 ];
+export default picsArr;
