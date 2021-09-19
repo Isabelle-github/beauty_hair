@@ -132,26 +132,37 @@ main {
     background-position: center;
     background-image: url("./img/woman2.jpg");
   }
-  .bgContact {
-    background-position: center;
-    background-image: url("./img/woman6.jpg");
-  }
+
   .bgGallery {
     background-position: center;
     background-image: url("./img/woman4.jpg");
   }
-  //contact page
+
+  // CONTACT PAGE
+
+  .bgContact {
+    background-position: center;
+    background-image: url("./img/woman6.jpg");
+  }
   .map {
     iframe {
       width: 100%;
     }
   }
-
-  // h2 {
-  //   // margin-top: 10em;
-  //   padding-top: 4em;
-  //   background-color: $white-color;
-  // }
+  /* contact FORM */
+  form {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    // margin: 2em auto;
+    input {
+      padding: 1em;
+    }
+    button {
+      padding: 1em;
+      background-color: $dark-orange-color;
+    }
+  }
 }
 footer {
   display: flex;
@@ -169,20 +180,4 @@ footer {
   a:hover {
     color: $dark-orange-color;
   }
-}
-
-/* FORM */
-form {
-  width: 70%;
-  display: flex;
-  flex-direction: column;
-  margin: 2em auto;
-}
-form input {
-  padding: 1em;
-}
-form input:last-of-type {
-  color: var(--white-color);
-  padding: 1em;
-  background-color: var(--black-color);
 }

@@ -1,4 +1,5 @@
 import React from "react";
+import ContactForm from "./ContactForm";
 
 const Contact = () => {
   return (
@@ -17,6 +18,10 @@ const Contact = () => {
           marginheight="0"
           marginwidth="0"
         ></iframe>
+      </div>
+      <div>
+        <ContactForm></ContactForm>
+        <aside></aside>
       </div>
     </main>
   );
