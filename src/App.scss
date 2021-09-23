@@ -218,7 +218,7 @@ main {
       width: 90%;
       // border-style: solid;
       margin: 0 auto;
-      padding: 1em;
+      padding: 1.5em;
       text-align: right;
       text-transform: uppercase;
     }
@@ -236,6 +236,8 @@ main {
       height: 400px;
       position: relative;
       overflow: hidden;
+      border-radius: 20% 0% 20% 0%;
+
       figure {
         overflow: hidden;
         position: relative;
@@ -246,18 +248,32 @@ main {
           object-fit: cover;
           transition: transform 2s;
         }
-        img:hover {
-          transform: scale(1.2);
+      }
+      .detailBox {
+        position: absolute;
+        top: 5%;
+        bottom: 5%;
+        left: 10%;
+        right: 10%;
+        background-color: rgba(0, 0, 0, 0.6);
+        transform: scaleY(0);
+        transition: transform 0.5s;
+        border-radius: 20% 0% 20% 0%;
+        .detailText {
+          position: absolute;
+          text-align: center;
+          top: 50%;
+          transform: translateY(-50%);
+          color: $dark-orange-color;
+          padding: 0 5%;
         }
       }
-      .details {
-        position: absolute;
-        top: 2%;
-        bottom: 2%;
-        left: 2%;
-        right: 2%;
-        background-color: rgba(0, 0, 0, 0.8);
-      }
+    }
+    article:hover figure img {
+      transform: scale(1.2);
+    }
+    article:hover .detailBox {
+      transform: scaleY(1);
     }
   }
 

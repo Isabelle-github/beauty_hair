@@ -25,9 +25,12 @@ const Gallery = () => {
                 <figure key={pic.id}>
                   <img src={pic.imgSrc} alt="img"></img>
                 </figure>
-                <div className="details">
-                  <h2>hhhhhhh</h2>
-                  <p>lorem Ipsum</p>
+                <div className="detailBox">
+                  <p className="detailText">
+                    Beautiful box braids. Colour: dark red. Lenght: Shoulders.
+                    Styling time: 3 Hours; Keeping: till 2 Months; Suitable:
+                    Winter, Autumn
+                  </p>
                 </div>
               </article>
             );
