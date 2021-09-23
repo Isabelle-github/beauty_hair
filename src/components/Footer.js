@@ -11,9 +11,9 @@ const Footer = () => {
         <CallIcon></CallIcon>
         +44 7404 403711
       </a>
-      <a href="mailto:abc@example.com">
+      <a href="mailto:tianamatawe@yahoo.fr">
         <EmailIcon></EmailIcon>
-        My@Email.com
+        tianamatawe@yahoo.fr
       </a>
       <a href="https://www.facebook.com/matawe.tatiana">
         <FacebookIcon></FacebookIcon>
