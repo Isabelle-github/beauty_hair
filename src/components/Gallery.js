@@ -23,7 +23,7 @@ const Gallery = () => {
         >
           {(props) => (
             <animated.div style={props}>
-              <h1>HAVE LOOK AT MY WORK</h1>
+              <h1>HAVE A LOOK AT MY WORK</h1>
             </animated.div>
           )}
         </Spring>

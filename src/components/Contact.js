@@ -9,8 +9,8 @@ const Contact = () => {
     <main>
       <div className="parallax bgContact">
         <Spring
-          from={{ opacity: 0, marginTop: -500 }}
-          to={{ opacity: 1, marginTop: 0 }}
+          from={{ opacity: 0, marginTop: 0 }}
+          to={{ opacity: 1, marginTop: -300 }}
           config={{ dalay: 1000, duration: 2000 }}
         >
           {(props) => (

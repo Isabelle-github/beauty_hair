@@ -101,9 +101,20 @@ main {
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
+    h1 {
+      font-size: 4em;
+      color: $dark-orange-color;
+      width: 70%;
+      margin: 0 auto;
+      text-align: center;
+      text-transform: uppercase;
+      position: relative;
+      animation: welcomeText 3s 1;
+      padding-top: 3em;
+    }
   }
   .testimonial {
-    padding: 8em;
+    padding: 5%;
     display: flex;
     gap: 3em;
     article {
@@ -127,6 +138,51 @@ main {
   .parallax2 {
     background-position: center;
     background-image: url("./img/woman5.jpg");
+  }
+  .testimonial2 {
+    padding: 5%;
+    /* CSS talk bubble */
+    .talk-bubble {
+      // margin: 40px;
+      display: inline-block;
+      position: relative;
+      width: 200px;
+      height: auto;
+      background-color: $orange-color;
+    }
+    .border {
+      border: 8px solid $orange-color;
+    }
+    .round {
+      border-radius: 1em;
+      -webkit-border-radius: 1em;
+      -moz-border-radius: 1em;
+    }
+    /*Right triangle, placed bottom left side slightly in*/
+    .tri-right.border.btm-left-in:before {
+      content: " ";
+      position: absolute;
+      width: 0;
+      height: 0;
+      left: 30px;
+      right: auto;
+      top: auto;
+      bottom: -40px;
+      border: 20px solid;
+      border-color: $orange-color transparent transparent $orange-color;
+    }
+    .tri-right.btm-left-in:after {
+      content: " ";
+      position: absolute;
+      width: 0;
+      height: 0;
+      left: 38px;
+      right: auto;
+      top: auto;
+      bottom: -20px;
+      border: 12px solid;
+      border-color: $orange-color transparent transparent $orange-color;
+    }
   }
   .bgAbout {
     background-position: center;
@@ -176,7 +232,7 @@ main {
     display: flex;
     align-items: center;
     background-position: center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
       url("./img/woman6.jpg");
     h1 {
       font-size: 4em;
@@ -274,5 +330,11 @@ footer {
   }
   a:hover {
     color: $dark-orange-color;
+  }
+}
+@keyframes welcomeText {
+  0% {
+    color: $braun-color;
+    left: 500%;
   }
 }
