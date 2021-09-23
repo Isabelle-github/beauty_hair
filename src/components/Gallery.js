@@ -21,9 +21,15 @@ const Gallery = () => {
         {picsArr &&
           picsArr.map((pic) => {
             return (
-              <figure key={pic.id}>
-                <img src={pic.imgSrc} alt="img"></img>
-              </figure>
+              <article>
+                <figure key={pic.id}>
+                  <img src={pic.imgSrc} alt="img"></img>
+                </figure>
+                <div className="details">
+                  <h2>hhhhhhh</h2>
+                  <p>lorem Ipsum</p>
+                </div>
+              </article>
             );
           })}
       </section>
