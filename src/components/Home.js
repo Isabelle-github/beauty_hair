@@ -46,63 +46,84 @@ const Home = () => {
       <div className="parallax parallax2">
         <h1>Happy customers comments</h1>
       </div>
-      <section className="testimonial2">
-        <div class="talk-bubble tri-right border round btm-left-in">
-          <div class="talktext">
-            <p>
-              Thank you for doing them I love them so much xxxxx Very beautiful
+      <section className="testimonial">
+        <div className="talk-bubble tri-right border round btm-left-in">
+          <div className="talktext">
+            <p className="textWrapper">
+              <span>
+                Thank you for doing them I love them so much xxxxx Very
+                beautiful
+              </span>
             </p>
           </div>
         </div>
-        <div class="talk-bubble tri-right border round btm-left-in">
-          <div class="talktext">
-            <p>
-              Omg beautiful! He loves it thanks so much will be back xx
-              Absolutely in love!!!
+        <div className="talk-bubble tri-right border round btm-left-in">
+          <div className="talktext">
+            <p className="textWrapper">
+              <span>
+                Omg beautiful! He loves it thanks so much will be back xx
+                Absolutely in love!!!
+              </span>
             </p>
           </div>
         </div>
-        <div class="talk-bubble tri-right border round btm-left-in">
-          <div class="talktext">
-            <p>wow amazing, how you manage it? Super, so talented xxx</p>
-          </div>
-        </div>
-        <div class="talk-bubble tri-right border round btm-left-in">
-          <div class="talktext">
-            <p>
-              Massive thank you xxx It is absolutely how I asked xxx amazing
-              job, amazing girls
+        <div className="talk-bubble tri-right border round btm-left-in">
+          <div className="talktext">
+            <p className="textWrapper">
+              <span data-text="wow amazing, how you manage it? Super, so talented xxx">
+                wow amazing, how you manage it? Super, so talented xxx
+              </span>
             </p>
           </div>
         </div>
-        <div class="talk-bubble tri-right border round btm-left-in">
-          <div class="talktext">
-            <p>
-              Thank you so so so much. I am so in love with my hair, highly
-              recommend you, thank you again
+        <div className="talk-bubble tri-right border round btm-left-in">
+          <div className="talktext">
+            <p className="textWrapper">
+              <span>
+                Massive thank you xxx It is absolutely how I asked xxx amazing
+                job, amazing girls
+              </span>
             </p>
           </div>
         </div>
-        <div class="talk-bubble tri-right border round btm-left-in">
-          <div class="talktext">
-            <p>
-              Absolutely in love with it.. that looks so beautiful thanks babe I
-              love it
+        <div className="talk-bubble tri-right border round btm-left-in">
+          <div className="talktext">
+            <p className="textWrapper">
+              <span>
+                Thank you so so so much. I am so in love with my hair, highly
+                recommend you, thank you again
+              </span>
             </p>
           </div>
         </div>
-        <div class="talk-bubble tri-right border round btm-left-in">
-          <div class="talktext">
-            <p>
-              Stunning xx, cant wait when will be done my hair, love it thank
-              you so much xx
+        <div className="talk-bubble tri-right border round btm-left-in">
+          <div className="talktext">
+            <p className="textWrapper">
+              <span>
+                Absolutely in love with it.. that looks so beautiful thanks babe
+                I love it
+              </span>
+            </p>
+          </div>
+        </div>
+        <div className="talk-bubble tri-right border round btm-left-in">
+          <div className="talktext">
+            <p className="textWrapper">
+              <span>
+                Stunning xx, cant wait when will be done my hair, love it thank
+                you so much xx
+              </span>
             </p>
           </div>
         </div>
 
-        <div class="talk-bubble tri-right border round btm-left-in">
-          <div class="talktext">
-            <p>Beautiful as always! She loves them thank you so much xx</p>
+        <div className="talk-bubble tri-right border round btm-left-in">
+          <div className="talktext">
+            <p className="textWrapper">
+              <span>
+                Beautiful as always! She loves them thank you so much xx
+              </span>
+            </p>
           </div>
         </div>
       </section>

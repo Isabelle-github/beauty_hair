@@ -73,7 +73,7 @@ const picsArr = [
   },
   {
     id: 19,
-    imgSrc: process.env.PUBLIC_URL + "/pics/pic19jpeg",
+    imgSrc: process.env.PUBLIC_URL + "/pics/pic19.jpeg",
   },
   {
     id: 20,
