@@ -2,25 +2,12 @@ import React from "react";
 import ContactForm from "./ContactForm";
 import CallIcon from "@material-ui/icons/Call";
 import EmailIcon from "@material-ui/icons/Email";
-import { Spring, animated } from "@react-spring/web";
 
 const Contact = () => {
   return (
     <main>
       <div className="parallax bgContact">
-        <Spring
-          from={{ opacity: 0, marginTop: 0 }}
-          to={{ opacity: 1, marginTop: -300 }}
-          config={{ dalay: 1000, duration: 2000 }}
-        >
-          {(props) => (
-            <animated.div style={props}>
-              <h1>
-                Let me take care of your Hair! Write/Call to schedule a Meeting
-              </h1>
-            </animated.div>
-          )}
-        </Spring>
+        <h1>Let me take care of your Hair! Write/Call to schedule a Meeting</h1>
       </div>
       <div className="map">
         <iframe

@@ -94,7 +94,7 @@ main {
     opacity: 1;
     background-image: url("./img/woman7.jpg");
     // background-color: $braun-color;
-    min-height: 100vh;
+    min-height: 80vh;
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -113,10 +113,10 @@ main {
       padding-top: 3em;
     }
   }
-  .testimonial {
-    padding: 5%;
+  .offers {
+    padding: 10% 5%;
     display: flex;
-    gap: 3em;
+    gap: 4em;
     article {
       // box-shadow: -1px 11px 23px 1px $dark-orange-color;
       box-shadow: -1px 11px 23px 1px $braun-color;
@@ -125,13 +125,24 @@ main {
       padding: 2em;
       width: 30%;
       figure {
+        margin-bottom: 1em;
         display: flex;
         align-items: center;
+        justify-content: space-between;
         img {
-          width: 5em;
-          // border-radius: 50%;
-          border-radius: 20% 0% 20% 0%;
+          width: 50%;
+          border-radius: 20%;
+          height: 15em;
         }
+        figcaption {
+          padding: 1em;
+          font-size: 2em;
+          font-weight: 600;
+        }
+      }
+      p {
+        padding-top: 1em;
+        padding-bottom: 1em;
       }
     }
   }
@@ -141,12 +152,16 @@ main {
   }
   .testimonial2 {
     padding: 5%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
     /* CSS talk bubble */
     .talk-bubble {
-      // margin: 40px;
+      margin: 2em;
+      padding: 1em;
       display: inline-block;
       position: relative;
-      width: 200px;
+      width: 20%;
       height: auto;
       background-color: $orange-color;
     }
