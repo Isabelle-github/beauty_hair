@@ -223,7 +223,7 @@ main {
       text-transform: uppercase;
     }
   }
-  .imageGallery {
+  #imageGallery {
     background-color: $braun-color;
     padding: 5%;
     display: flex;
@@ -274,6 +274,17 @@ main {
     }
     article:hover .detailBox {
       transform: scaleY(1);
+    }
+    .toTheTop {
+      position: fixed;
+      bottom: 10%;
+      left: 2%;
+      border: solid $dark-orange-color 2px;
+      color: $dark-orange-color;
+      font-weight: 800;
+      font-size: 30px;
+      padding: 0.5em;
+      border-radius: 20% 0% 20% 0%;
     }
   }
 

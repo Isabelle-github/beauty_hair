@@ -1,6 +1,8 @@
 import React from "react";
+import toTop from "../img/toTop.png";
 // import { useState } from "react";
 import picsArr from "../photos";
+
 const Gallery = () => {
   // const [pictures, setpics] = useState(picsArr);
 
@@ -17,7 +19,7 @@ const Gallery = () => {
       <div className="parallax bgGallery">
         <h1>HAVE A LOOK AT MY WORK</h1>
       </div>
-      <section className="imageGallery">
+      <section id="imageGallery">
         {picsArr &&
           picsArr.map((pic) => {
             return (
@@ -35,6 +37,10 @@ const Gallery = () => {
               </article>
             );
           })}
+        <a className="toTheTop" href="#imageGallery" alt="back To Top">
+          &#x2191;
+          {/* <img src={`${toTop}`} alt="back To Top"></img> */}
+        </a>
       </section>
     </main>
   );
