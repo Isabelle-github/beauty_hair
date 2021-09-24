@@ -11,6 +11,7 @@ const Contact = () => {
       </div>
       <div className="map">
         <iframe
+          title="map"
           width="1046"
           height="399"
           id="gmap_canvas"
