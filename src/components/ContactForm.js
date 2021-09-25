@@ -22,14 +22,14 @@ const ContactForm = () => {
   return (
     <form ref={form}>
       <div>
-        <input required type="text" placeholder="Name" name="name" />
+        <input type="text" placeholder="Name" name="name" required />
         <input type="email" placeholder="Email address" name="email" required />
       </div>
       <textarea
-        required
         rows="10"
         placeholder="Message"
         name="message"
+        required
       ></textarea>
       <button type="submit" onClick={sendEmail}>
         Submit
