@@ -1,12 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import { useRef } from "react";
 import * as yup from "yup";
 import emailjs from "emailjs-com";
 import { contactSchema } from "./ContactForm";
-import React, { useState } from "react";
 
 const ContactForm = () => {
   const form = useRef();
+  const validateInputs = (e) => {};
+
   // const userID = process.env.REACT_APP_USER_ID;
   //   console.log(userID);
   const sendEmail = (e) => {
@@ -32,14 +33,27 @@ const ContactForm = () => {
   return (
     <form ref={form}>
       <div>
-        <input type="text" placeholder="Name" name="name" required />
-        <input type="email" placeholder="Email address" name="email" required />
+        <input
+          type="text"
+          placeholder="Name"
+          name="name"
+          required
+          onChange={validateInputs}
+        />
+        <input
+          type="email"
+          placeholder="Email address"
+          name="email"
+          required
+          onChange={validateInputs}
+        />
       </div>
       <textarea
         rows="10"
         placeholder="Message"
         name="message"
         required
+        onChange={validateInputs}
       ></textarea>
       <button type="submit" onClick={sendEmail}>
         Submit
