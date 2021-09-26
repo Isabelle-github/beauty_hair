@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { useRef } from "react";
 import emailjs from "emailjs-com";
 import { contactSchema } from "./FormValidation";
+import Popup from "./Popup";
 
 const ContactForm = () => {
   const form = useRef();
@@ -90,6 +91,7 @@ const ContactForm = () => {
         Submit
       </button>
       {/* <input type="submit" value="Submit"></input> */}
+      <Popup trigger={true} nameUser={inputs.name}></Popup>
     </form>
   );
 };
