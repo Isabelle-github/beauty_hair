@@ -9,14 +9,21 @@ const ContactForm = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm("gmail", "For Beauty Grace", form.current, userID).then(
-      (result) => {
-        console.log(result.text);
-      },
-      (error) => {
-        console.log(error.text);
-      }
-    );
+    emailjs
+      .sendForm(
+        "gmail",
+        "For Beauty Grace",
+        form.current,
+        "user_EQWKA0M4xlpIT8g3wOTqs"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
     form.current.reset();
   };
   return (
