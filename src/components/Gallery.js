@@ -23,8 +23,8 @@ const Gallery = () => {
         {picsArr &&
           picsArr.map((pic) => {
             return (
-              <article>
-                <figure key={pic.id}>
+              <article key={pic.id}>
+                <figure>
                   <img src={pic.imgSrc} alt="img"></img>
                 </figure>
                 <div className="detailBox">
