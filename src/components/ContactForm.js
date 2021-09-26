@@ -6,7 +6,7 @@ import Popup from "./Popup";
 
 const ContactForm = () => {
   const form = useRef();
-  const [istrigger, setIsTrigger] = useState(true);
+  const [istrigger, setIsTrigger] = useState(false);
   const [isValid, setIsValid] = useState(false);
   const [errorMessage, setErrorMessage] = useState("");
   const [inputs, setInputs] = useState({
