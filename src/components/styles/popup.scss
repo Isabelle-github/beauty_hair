@@ -30,9 +30,12 @@ $fontTitles: "Open Sans", sans-serif;
   background-color: $orange-color;
   width: 100%;
   padding: 5%;
+  border-radius: 1em;
   .close-btn {
     position: absolute;
     top: 1em;
     right: 1em;
+    width: 1em;
+    padding: 1.5em;
   }
 }

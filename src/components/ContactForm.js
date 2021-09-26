@@ -6,6 +6,7 @@ import Popup from "./Popup";
 
 const ContactForm = () => {
   const form = useRef();
+  const [istrigger, setIsTrigger] = useState(true);
   const [isValid, setIsValid] = useState(false);
   const [errorMessage, setErrorMessage] = useState("");
   const [inputs, setInputs] = useState({
@@ -50,6 +51,7 @@ const ContactForm = () => {
         .then(
           (result) => {
             console.log(result.text);
+            setIsTrigger(true);
           },
           (error) => {
             console.log(error.text);
@@ -91,7 +93,11 @@ const ContactForm = () => {
         Submit
       </button>
       {/* <input type="submit" value="Submit"></input> */}
-      <Popup trigger={true} nameUser={inputs.name}></Popup>
+      <Popup
+        trigger={istrigger}
+        nameUser={inputs.name}
+        sethidePopup={setIsTrigger}
+      ></Popup>
     </form>
   );
 };
