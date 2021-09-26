@@ -6,7 +6,24 @@ import { contactSchema } from "./ContactForm";
 
 const ContactForm = () => {
   const form = useRef();
-  const validateInputs = (e) => {};
+  const [inputs, setInputs] = useState({
+    name: "",
+    email: "",
+    message: "",
+  });
+  const validateInputs = (e) => {
+    // setInputs({
+    //   name: e.target.value,
+    //   email: e.target.value,
+    //   message: e.target.value,
+    // });
+    setInputs((prev) => {
+      return {
+        ...prev,
+        [e.target.name]: e.target.value,
+      };
+    });
+  };
 
   // const userID = process.env.REACT_APP_USER_ID;
   //   console.log(userID);
