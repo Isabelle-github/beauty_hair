@@ -17,7 +17,7 @@ const Gallery = () => {
   // console.log(picsArr);
   return (
     <main>
-      <div className="parallax bgGallery">
+      <div className="parallax bgGallery" id="gallery">
         <h1>HAVE A LOOK AT MY WORK</h1>
       </div>
       <section id="imageGallery">
@@ -29,16 +29,12 @@ const Gallery = () => {
                   <img src={pic.imgSrc} alt="img"></img>
                 </figure>
                 <div className="detailBox">
-                  <p className="detailText">
-                    Beautiful box braids. Colour: dark red. Lenght: Shoulders.
-                    Styling time: 3 Hours; Keeping: till 2 Months; Suitable:
-                    Winter, Autumn
-                  </p>
+                  <p className="detailText">{pic.imgDetail}</p>
                 </div>
               </article>
             );
           })}
-        <a className="toTheTop" href="#imageGallery" alt="back To Top">
+        <a className="toTheTop" href="#gallery" alt="back To Top">
           &#x2191;
           {/* <img src={`${toTop}`} alt="back To Top"></img> */}
         </a>
