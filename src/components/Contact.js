@@ -2,6 +2,7 @@ import React from "react";
 import ContactForm from "./ContactForm";
 import CallIcon from "@material-ui/icons/Call";
 import EmailIcon from "@material-ui/icons/Email";
+import "./styles/contact.scss";
 
 const Contact = () => {
   return (

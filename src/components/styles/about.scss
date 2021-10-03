@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Nova+Round&display=swap");
+
+$green-color: #c8d0b4;
+$orange-color: #f2ead3;
+$dark-orange-color: #d5753b;
+$braun-color: #321313;
+$white-color: #ffffff;
+$gray-color: #e5e5e5;
+$black-color: #333333;
+$fontText: "Nova Round", cursive;
+$fontTitles: "Open Sans", sans-serif;
+// $fontTitles:'Fredericka the Great', cursive;
+
+main {
+  .bgAbout {
+    background-position: center;
+    background-image: url("../../img/woman2.jpg");
+  }
+}

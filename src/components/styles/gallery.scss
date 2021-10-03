@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Nova+Round&display=swap");
+
+$green-color: #c8d0b4;
+$orange-color: #f2ead3;
+$dark-orange-color: #d5753b;
+$braun-color: #321313;
+$white-color: #ffffff;
+$gray-color: #e5e5e5;
+$black-color: #333333;
+$fontText: "Nova Round", cursive;
+$fontTitles: "Open Sans", sans-serif;
+// $fontTitles:'Fredericka the Great', cursive;
+
+main {
+  //GALLERY PAGE
+
+  .bgGallery {
+    display: flex;
+    align-items: center;
+    background-position: top;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+      url("../../img/woman4.jpg");
+    h1 {
+      font-size: 5em;
+      color: $dark-orange-color;
+      width: 90%;
+      // border-style: solid;
+      margin: 0 auto;
+      padding: 1.5em;
+      text-align: right;
+      text-transform: uppercase;
+    }
+  }
+  #imageGallery {
+    background-color: $braun-color;
+    padding: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    row-gap: 1%;
+    article {
+      width: 45%;
+      margin: 3% auto;
+      height: 400px;
+      position: relative;
+      overflow: hidden;
+      border-radius: 20% 0% 20% 0%;
+
+      figure {
+        overflow: hidden;
+        position: relative;
+        img {
+          padding: 1%;
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          transition: transform 2s;
+        }
+      }
+      .detailBox {
+        position: absolute;
+        top: 5%;
+        bottom: 5%;
+        left: 10%;
+        right: 10%;
+        background-color: rgba(0, 0, 0, 0.6);
+        transform: scaleY(0);
+        transition: transform 0.5s;
+        border-radius: 20% 0% 20% 0%;
+        .detailText {
+          position: absolute;
+          text-align: center;
+          top: 50%;
+          transform: translateY(-50%);
+          color: $orange-color;
+          padding: 0 5%;
+        }
+      }
+    }
+    article:hover figure img {
+      transform: scale(1.2);
+    }
+    article:hover .detailBox {
+      transform: scaleY(1);
+    }
+    .toTheTop {
+      position: fixed;
+      bottom: 10%;
+      left: 2%;
+      border: solid $orange-color 2px;
+      color: $orange-color;
+      font-weight: 800;
+      font-size: 30px;
+      padding: 0.5em;
+      border-radius: 20% 0% 20% 0%;
+    }
+  }
+}

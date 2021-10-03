@@ -2,6 +2,7 @@ import React from "react";
 import FacebookIcon from "@material-ui/icons/Facebook";
 import CallIcon from "@material-ui/icons/Call";
 import EmailIcon from "@material-ui/icons/Email";
+import "./styles/footer.scss";
 
 const Footer = () => {
   return (

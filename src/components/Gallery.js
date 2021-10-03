@@ -2,6 +2,7 @@ import React from "react";
 // import toTop from "../img/toTop.png";
 // import { useState } from "react";
 import picsArr from "../photos";
+import "./styles/gallery.scss";
 
 const Gallery = () => {
   // const [pictures, setpics] = useState(picsArr);

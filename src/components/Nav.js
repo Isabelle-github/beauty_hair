@@ -3,6 +3,7 @@ import { NavLink } from "react-router-dom";
 import logo from "../img/logo.png";
 import CallIcon from "@material-ui/icons/Call";
 import EmailIcon from "@material-ui/icons/Email";
+import "./styles/nav.scss";
 
 const Nav = () => {
   return (

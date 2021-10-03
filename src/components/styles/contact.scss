@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Nova+Round&display=swap");
+
+$green-color: #c8d0b4;
+$orange-color: #f2ead3;
+$dark-orange-color: #d5753b;
+$braun-color: #321313;
+$white-color: #ffffff;
+$gray-color: #e5e5e5;
+$black-color: #333333;
+$fontText: "Nova Round", cursive;
+$fontTitles: "Open Sans", sans-serif;
+// $fontTitles:'Fredericka the Great', cursive;
+
+main {
+  // CONTACT PAGE
+
+  .bgContact {
+    display: flex;
+    align-items: center;
+    background-position: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+      url("../../img/woman6.jpg");
+    h1 {
+      font-size: 4em;
+      color: $dark-orange-color;
+      width: 70%;
+      padding-bottom: 5em;
+      margin: 0 auto;
+      text-align: center;
+      text-transform: uppercase;
+    }
+  }
+  .map {
+    iframe {
+      width: 100%;
+    }
+  }
+  /* contact FORM */
+  .form-area {
+    padding: 5em;
+    display: flex;
+    justify-content: space-between;
+    aside {
+      width: 25%;
+      h2 {
+        margin-bottom: 1em;
+      }
+      h2:last-of-type {
+        margin-top: 1em;
+      }
+      p {
+        margin-bottom: 0.5em;
+        margin-top: 0.5em;
+      }
+      a {
+        display: flex;
+        color: $braun-color;
+        align-items: center;
+        margin-bottom: 0.5em;
+      }
+      a,
+      a:visited {
+        color: $braun-color;
+      }
+      a:hover {
+        color: $dark-orange-color;
+      }
+    }
+    form {
+      width: 70%;
+      display: flex;
+      flex-direction: column;
+      // margin: 2em auto;
+      div {
+        display: flex;
+        justify-content: space-between;
+        input {
+          width: 49%;
+        }
+      }
+      input,
+      textarea {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        outline: none;
+        color: $braun-color;
+        padding: 2em;
+        margin-bottom: 2em;
+        border-style: none;
+        border-radius: 20% 0% 20% 0%;
+        background-color: $orange-color;
+      }
+      button {
+        margin: 0 auto;
+        border-style: none;
+        width: 30%;
+        padding: 1.5em;
+        border-radius: 1em;
+        background-color: $dark-orange-color;
+      }
+    }
+  }
+}

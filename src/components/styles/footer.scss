@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Nova+Round&display=swap");
+
+$green-color: #c8d0b4;
+$orange-color: #f2ead3;
+$dark-orange-color: #d5753b;
+$braun-color: #321313;
+$white-color: #ffffff;
+$gray-color: #e5e5e5;
+$black-color: #333333;
+$fontText: "Nova Round", cursive;
+$fontTitles: "Open Sans", sans-serif;
+// $fontTitles:'Fredericka the Great', cursive;
+
+//FOOTER
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: $orange-color;
+  padding: 5% 10%;
+  a {
+    display: flex;
+    font-size: 0.9em;
+    color: $braun-color;
+    //   margin-right: 2rem;
+    align-items: center;
+  }
+  a:hover {
+    color: $dark-orange-color;
+  }
+}
