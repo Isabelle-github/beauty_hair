@@ -74,6 +74,21 @@ main {
           transform: translateY(-50%);
           color: $orange-color;
           padding: 0 5%;
+          .toContactForm {
+            text-decoration: none;
+            color: $orange-color;
+            text-transform: uppercase;
+            border: $orange-color 1px solid;
+            padding: 3%;
+            margin-top: 1em;
+            display: inline-block;
+            border-radius: 20% 0% 20% 0%;
+          }
+          .toContactForm:hover {
+            // background-color: $orange-color;
+            color: $dark-orange-color;
+            border: $dark-orange-color 1px solid;
+          }
         }
       }
     }
@@ -93,6 +108,10 @@ main {
       font-size: 30px;
       padding: 0.5em;
       border-radius: 20% 0% 20% 0%;
+    }
+    .toTheTop:hover {
+      color: $dark-orange-color;
+      border: solid $dark-orange-color 2px;
     }
   }
 }

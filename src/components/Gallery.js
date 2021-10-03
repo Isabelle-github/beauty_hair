@@ -29,7 +29,16 @@ const Gallery = () => {
                   <img src={pic.imgSrc} alt="img"></img>
                 </figure>
                 <div className="detailBox">
-                  <p className="detailText">{pic.imgDetail}</p>
+                  <p className="detailText">
+                    {pic.imgDetail} <br></br>
+                    <a
+                      className="toContactForm"
+                      href="/contact#contactForm"
+                      alt="toContactForm"
+                    >
+                      Order this Hairstyle
+                    </a>
+                  </p>
                 </div>
               </article>
             );

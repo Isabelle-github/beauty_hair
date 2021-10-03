@@ -23,7 +23,7 @@ const Contact = () => {
           marginWidth="0"
         ></iframe>
       </div>
-      <div className="form-area">
+      <div className="form-area" id="contactForm">
         <ContactForm></ContactForm>
         <aside>
           <h2>BEAUTY GRACE</h2>

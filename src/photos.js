@@ -51,7 +51,7 @@ const picsArr = [
     id: 9,
     imgSrc: process.env.PUBLIC_URL + "/pics/pic9.jpeg",
     imgDetail:
-      " Beautiful cornrows in diefferent styles, with and without extensions. Colour: black. Length: Shoulders, natural hair-length. Styling time: 1.5 - 2 Hours; Keeping: till 1.5 Months; Suitable: Spring, Sommer",
+      " Beautiful cornrows in different styles, with and without extensions. Colour: black. Length: Shoulders, natural hair-length. Styling time: 1.5 - 2 Hours; Keeping: till 1.5 Months; Suitable: Spring, Sommer",
   },
   {
     id: 10,
@@ -153,151 +153,151 @@ const picsArr = [
     id: 26,
     imgSrc: process.env.PUBLIC_URL + "/pics/pic26.jpeg",
     imgDetail:
-      " Beautiful box braids. Colour: dark red. Length: Shoulders. Styling time: 3 Hours; Keeping: till 2 Months; Suitable:Winter, Autumn",
+      " Beautiful short little boys box braids. Colour: black. Length: Short. Styling time: 0.5-1 Hours; Keeping: till 2 Months; Suitable: All Seasons",
   },
   {
     id: 27,
     imgSrc: process.env.PUBLIC_URL + "/pics/pic27.jpeg",
     imgDetail:
-      " Beautiful box braids. Colour: dark red. Length: Shoulders. Styling time: 3 Hours; Keeping: till 2 Months; Suitable:Winter, Autumn",
+      " Beautiful thin box braids. Colour: dark blue. Length: Shoulders. Styling time: 3 Hours; Keeping: till 2 Months; Suitable: Winter, Autumn",
   },
   {
     id: 28,
     imgSrc: process.env.PUBLIC_URL + "/pics/pic28.jpeg",
     imgDetail:
-      " Beautiful box braids. Colour: dark red. Length: Shoulders. Styling time: 3 Hours; Keeping: till 2 Months; Suitable:Winter, Autumn",
+      " Beautiful box braids. Colour: multicolor. Length: passed Shoulders. Styling time: 2.5 Hours; Keeping: till 2 Months; Suitable: Winter, Autumn",
   },
   {
     id: 29,
     imgSrc: process.env.PUBLIC_URL + "/pics/pic29.jpeg",
     imgDetail:
-      " Beautiful box braids. Colour: dark red. Length: Shoulders. Styling time: 3 Hours; Keeping: till 2 Months; Suitable:Winter, Autumn",
+      " Beautiful box braids. Colour: light blond. Length: beyond Shoulders. Styling time: 3 Hours; Keeping: till 2 Months; Suitable: Sommer, Spring, Winter, Autumn",
   },
   {
     id: 30,
     imgSrc: process.env.PUBLIC_URL + "/pics/pic30.jpeg",
     imgDetail:
-      " Beautiful box braids. Colour: dark red. Length: Shoulders. Styling time: 3 Hours; Keeping: till 2 Months; Suitable:Winter, Autumn",
+      " Beautiful children short box braids. Colour: mixed black and dark braun. Length: Shoulders. Styling time: 1.5 Hours; Keeping: till 2 Months; Suitable: All Seasons",
   },
   {
     id: 31,
     imgSrc: process.env.PUBLIC_URL + "/pics/pic31.jpeg",
     imgDetail:
-      " Beautiful box braids. Colour: dark red. Length: Shoulders. Styling time: 3 Hours; Keeping: till 2 Months; Suitable:Winter, Autumn",
+      " Beautiful cornrows with extensions. Colour: blond. Length: Short, natural hair-length. Styling time: 1-2 Hours; Keeping: till 2 Months; Suitable: Spring, Sommer",
   },
   {
     id: 32,
     imgSrc: process.env.PUBLIC_URL + "/pics/pic32.jpeg",
     imgDetail:
-      " Beautiful box braids. Colour: dark red. Length: Shoulders. Styling time: 3 Hours; Keeping: till 2 Months; Suitable:Winter, Autumn",
+      " Beautiful box braids, stretched in waves. Colour: blond. Length: Shoulders. Styling time: 3 Hours; Keeping: till 2 Months; Suitable: All Seasons",
   },
   {
     id: 33,
     imgSrc: process.env.PUBLIC_URL + "/pics/pic33.jpeg",
     imgDetail:
-      " Beautiful box braids. Colour: dark red. Length: Shoulders. Styling time: 3 Hours; Keeping: till 2 Months; Suitable:Winter, Autumn",
+      " Beautiful fake dreadlocks with extensions. Colour: blue. Length: beyond Shoulders. Styling time: 3-4 Hours; Keeping: till 2 Months; Suitable: Winter, Autumn",
   },
   {
     id: 34,
     imgSrc: process.env.PUBLIC_URL + "/pics/pic34.jpeg",
     imgDetail:
-      " Beautiful box braids. Colour: dark red. Length: Shoulders. Styling time: 3 Hours; Keeping: till 2 Months; Suitable:Winter, Autumn",
+      " Beautiful fake dreadlocks with extensions. Colour: dark braun. Length: beyond Shoulders. Styling time: 3-4 Hours; Keeping: till 2 Months; Suitable: Winter, Autumn",
   },
   {
     id: 35,
     imgSrc: process.env.PUBLIC_URL + "/pics/pic35.jpeg",
     imgDetail:
-      " Beautiful box braids. Colour: dark red. Length: Shoulders. Styling time: 3 Hours; Keeping: till 2 Months; Suitable:Winter, Autumn",
+      " Beautiful cornrows with extensions, styled in pony tail. Colour: dark braun. Length: Shoulders. Styling time: 3 Hours; Keeping: till 2 Months; Suitable: All Seasons",
   },
   {
     id: 36,
     imgSrc: process.env.PUBLIC_URL + "/pics/pic36.jpeg",
     imgDetail:
-      " Beautiful box braids. Colour: dark red. Length: Shoulders. Styling time: 3 Hours; Keeping: till 2 Months; Suitable:Winter, Autumn",
+      " Beautiful children short box braids. Colour: black. Length: Shoulders. Styling time: 1.5 Hours; Keeping: till 2 Months; Suitable: All Seasons",
   },
   {
     id: 37,
     imgSrc: process.env.PUBLIC_URL + "/pics/pic37.jpeg",
     imgDetail:
-      " Beautiful box braids. Colour: dark red. Length: Shoulders. Styling time: 3 Hours; Keeping: till 2 Months; Suitable:Winter, Autumn",
+      " Beautiful box braids. Colour: dark braun. Length: Shoulders. Styling time: 2.5 Hours; Keeping: till 2 Months; Suitable: Winter, Autumn",
   },
   {
     id: 38,
     imgSrc: process.env.PUBLIC_URL + "/pics/pic38.jpeg",
     imgDetail:
-      " Beautiful box braids. Colour: dark red. Length: Shoulders. Styling time: 3 Hours; Keeping: till 2 Months; Suitable:Winter, Autumn",
+      " Beautiful box braids. Colour: dark braun. Length: middle-back. Styling time: 3.5 Hours; Keeping: till 2 Months; Suitable: Winter, Autumn",
   },
   {
     id: 39,
     imgSrc: process.env.PUBLIC_URL + "/pics/pic39.jpeg",
     imgDetail:
-      " Beautiful box braids. Colour: dark red. Length: Shoulders. Styling time: 3 Hours; Keeping: till 2 Months; Suitable:Winter, Autumn",
+      " Beautiful cornrows in pony tail style. Colour: black. Length: beyond Shoulders. Styling time: 2-3 Hours; Keeping: till 2 Months; Suitable: Winter, Autumn",
   },
   {
     id: 40,
     imgSrc: process.env.PUBLIC_URL + "/pics/pic40.jpeg",
     imgDetail:
-      " Beautiful box braids. Colour: dark red. Length: Shoulders. Styling time: 3 Hours; Keeping: till 2 Months; Suitable:Winter, Autumn",
+      " Beautiful box braids. Colour: multicolor. Length: Shoulders. Styling time: 2.5 Hours; Keeping: till 2 Months; Suitable: Winter, Autumn",
   },
   {
     id: 41,
     imgSrc: process.env.PUBLIC_URL + "/pics/pic41.jpeg",
     imgDetail:
-      " Beautiful box braids. Colour: dark red. Length: Shoulders. Styling time: 3 Hours; Keeping: till 2 Months; Suitable:Winter, Autumn",
+      " Beautiful thick box braids. Colour: mixed. Length: Shoulders. Styling time: 1 Hours; Keeping: till 2 Months; Suitable: Winter, Autumn",
   },
   {
     id: 42,
     imgSrc: process.env.PUBLIC_URL + "/pics/pic42.jpeg",
     imgDetail:
-      " Beautiful box braids. Colour: dark red. Length: Shoulders. Styling time: 3 Hours; Keeping: till 2 Months; Suitable:Winter, Autumn",
+      " Beautiful box braids. Colour: black. Length: beyond Shoulders. Styling time: 3 Hours; Keeping: till 2 Months; Suitable: Winter, Autumn",
   },
   {
     id: 43,
     imgSrc: process.env.PUBLIC_URL + "/pics/pic43.jpeg",
     imgDetail:
-      " Beautiful box braids. Colour: dark red. Length: Shoulders. Styling time: 3 Hours; Keeping: till 2 Months; Suitable:Winter, Autumn",
+      " Beautiful box twists on the front head. Colour: blond. Length: Long. Styling time: 1 Hours; Keeping: till 2 Months; Suitable: All Seasons",
   },
   {
     id: 44,
     imgSrc: process.env.PUBLIC_URL + "/pics/pic44.jpeg",
     imgDetail:
-      " Beautiful box braids. Colour: dark red. Length: Shoulders. Styling time: 3 Hours; Keeping: till 2 Months; Suitable:Winter, Autumn",
+      " Beautiful big box braids. Colour: blond. Length: Waist. Styling time: 2-3 Hours; Keeping: till 2 Months; Suitable: Winter, Autumn",
   },
   {
     id: 45,
     imgSrc: process.env.PUBLIC_URL + "/pics/pic45.jpeg",
     imgDetail:
-      " Beautiful box braids. Colour: dark red. Length: Shoulders. Styling time: 3 Hours; Keeping: till 2 Months; Suitable:Winter, Autumn",
+      " Beautiful mens box braids. Colour: black. Length: Short. Styling time: 0.5-1 Hours; Keeping: till 2 Months; Suitable: All Seasons",
   },
   {
     id: 46,
     imgSrc: process.env.PUBLIC_URL + "/pics/pic46.jpeg",
     imgDetail:
-      " Beautiful box braids. Colour: dark red. Length: Shoulders. Styling time: 3 Hours; Keeping: till 2 Months; Suitable:Winter, Autumn",
+      " Beautiful thick box braids. Colour: dark red. Length: waist till butt. Styling time: 3.5 Hours; Keeping: till 2.5 Months; Suitable: Winter, Autumn",
   },
   {
     id: 47,
     imgSrc: process.env.PUBLIC_URL + "/pics/pic47.jpeg",
     imgDetail:
-      " Beautiful box braids. Colour: dark red. Length: Shoulders. Styling time: 3 Hours; Keeping: till 2 Months; Suitable:Winter, Autumn",
+      " Beautiful box braids. Colour: light red. Length: passed the Shoulders. Styling time: 2.5 Hours; Keeping: till 2 Months; Suitable: Winter, Autumn",
   },
   {
     id: 48,
     imgSrc: process.env.PUBLIC_URL + "/pics/pic48.jpeg",
     imgDetail:
-      " Beautiful box braids. Colour: dark red. Length: Shoulders. Styling time: 3 Hours; Keeping: till 2 Months; Suitable:Winter, Autumn",
+      " Beautiful box braids. Colour: mixed. Length: beyond Shoulders. Styling time: 3 Hours; Keeping: till 2 Months; Suitable: Winter, Autumn",
   },
   {
     id: 49,
     imgSrc: process.env.PUBLIC_URL + "/pics/pic49.jpeg",
     imgDetail:
-      " Beautiful box braids. Colour: dark red. Length: Shoulders. Styling time: 3 Hours; Keeping: till 2 Months; Suitable:Winter, Autumn",
+      " Beautiful thin long box braids. Colour: light braun (blond). Length: very long. Styling time: 4 Hours; Keeping: till 2.5 Months; Suitable: Winter, Autumn",
   },
   {
     id: 50,
     imgSrc: process.env.PUBLIC_URL + "/pics/pic50.jpeg",
     imgDetail:
-      " Beautiful box braids. Colour: dark red. Length: Shoulders. Styling time: 3 Hours; Keeping: till 2 Months; Suitable:Winter, Autumn",
+      " Beautiful hair waves extension. Colour: dark red and blond. Length: Shoulders. Styling time: 3 Hours; Keeping: till 1.5 Months; Suitable: Winter, Autumn",
   },
 ];
 export default picsArr;
