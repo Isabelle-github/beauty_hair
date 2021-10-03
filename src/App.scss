@@ -60,6 +60,7 @@ main {
   .offers {
     padding: 10% 5%;
     display: flex;
+    // flex-wrap: wrap;
     gap: 4em;
     article {
       // box-shadow: -1px 11px 23px 1px $dark-orange-color;

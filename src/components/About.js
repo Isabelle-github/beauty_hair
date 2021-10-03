@@ -11,7 +11,7 @@ const About = () => {
         <article>
           <figure>
             {/* <img src="#" alt="pic"></img> */}
-            <figcaption>Call me Tatiana xoxo</figcaption>
+            <figcaption>Call me Tatiana :) </figcaption>
           </figure>
           <p>
             What is it to tell about myself lol? Call me Tatiana :) I am a
@@ -43,9 +43,9 @@ const About = () => {
           </figure>
           <p>
             I love beauty in general. My husband always refers to me as his sexy
-            girl, even after many years of mariage and children.<br></br> That's
-            why i dream to learn professional make-up and who knows, maybe
-            become a real make-up artist one day lol.
+            girl, even after many years of mariage and children.<br></br>{" "}
+            <br></br>That's why i dream to learn professional make-up and who
+            knows, maybe become a real make-up artist one day lol.
           </p>
         </article>
       </section>
