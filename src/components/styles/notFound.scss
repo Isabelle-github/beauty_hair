@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Nova+Round&display=swap");
+
+$green-color: #c8d0b4;
+$orange-color: #f2ead3;
+$dark-orange-color: #d5753b;
+$braun-color: #321313;
+$white-color: #ffffff;
+$gray-color: #e5e5e5;
+$black-color: #333333;
+$fontText: "Nova Round", cursive;
+$fontTitles: "Open Sans", sans-serif;
+// $fontTitles:'Fredericka the Great', cursive;
+
+main {
+  #not-found {
+    min-height: 100vh;
+    background-position: right;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+      url("../../img/woman9.jpg");
+    h1 {
+      font-size: 4em;
+      color: $dark-orange-color;
+      width: 70%;
+      padding-bottom: 5em;
+      margin: 0 auto;
+      text-align: center;
+      text-transform: uppercase;
+      padding-top: 3em;
+    }
+  }
+}
